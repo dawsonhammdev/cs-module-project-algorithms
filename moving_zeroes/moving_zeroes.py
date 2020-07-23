@@ -4,8 +4,16 @@ Returns: a List of integers
 '''
 def moving_zeroes(arr):
     # Your code here
+    # we can use insertion sort to move the zeros to the right side
+    # we need to compare the numbers and if not zero the move left
+    for i in range(1, len(arr)): 
+        key = arr[i]
+        
 
-    pass
+
+    return arr
+
+
 
 
 if __name__ == '__main__':
